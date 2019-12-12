@@ -15,7 +15,7 @@ import retrofit2.Response
 class MovieRepositoryTest {
 
     private var services = mock(NetworkServices::class.java)
-    private lateinit var repository: MovieRepository
+    private lateinit var repository: MovieDetailRepository
 
     private val movies = listOf(
         Movie(
