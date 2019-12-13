@@ -93,7 +93,8 @@ object Retrofit {
     val scalarConverter = "com.squareup.retrofit2:converter-scalars:${Version.retrofit}"
     val rxAdapter = "com.squareup.retrofit2:adapter-rxjava2:${Version.rxretrofit}"
     val okHttpLogging = "com.squareup.okhttp3:logging-interceptor:${Version.okhttpLogging}"
-    val coroutinesAdapter = "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:${Version.coroutinesAdapter}"
+    val coroutinesAdapter =
+        "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:${Version.coroutinesAdapter}"
     val mock = "com.squareup.retrofit2:retrofit-mock:${Version.retrofit}"
 }
 
@@ -122,7 +123,8 @@ object Testing {
     val espresso = "androidx.test.espresso:espresso-core:${Version.espresso}"
     val coreTesting = "androidx.arch.core:core-testing:${Version.archLifecycle}"
     val espressoContrib = "androidx.test.espresso:espresso-contrib:${Version.espresso}"
-    val espressoIdleResources = "androidx.test.espresso:espresso-idling-resource:${Version.espresso}"
+    val espressoIdleResources =
+        "androidx.test.espresso:espresso-idling-resource:${Version.espresso}"
     val mockito = "org.mockito:mockito-inline:${Version.mockito}"
     val mockKtRunner = "de.jodamob.kotlin:kotlin-runner-junit4:${Version.mockTestRunner}"
     val androidX = "androidx.arch.core:core-testing:${Version.archLifecycle}"
